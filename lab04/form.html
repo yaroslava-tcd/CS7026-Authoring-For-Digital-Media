@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<title>LAB04: Forms</title>
+<meta charset="UTF-8">
+<meta name="description" content="Lecture 6: HTML Forms">
+<meta name="keywords" content="HTML, CSS, JavaScript">
+<meta name="author" content="Yaroslava Bilous">
+
+</head>
+<body>
+
+<!--Name input field-->
+<h1>Subscribe to our Newsletter</h1>
+<form>
+  <label for="fname">First name:</label>
+  <input type="text" id="fname" name="fname"><br><br>
+  <label for="lname">Last name:</label>
+  <input type="text" id="lname" name="lname">
+
+<!--Newsletter type radio button input-->
+<p>How would you like to receive your newsletter?</p>
+  <input type="radio" id="postage" name="newslet_type" value="postage">
+  <label for="postage">Post</label><br>
+  <input type="radio" id="email" name="newslet_type" value="email">
+  <label for="email">E-mail</label><br>
+  <input type="radio" id="telegram" name="newslet_type" value="telegram">
+  <label for="telegram">Singing telegram</label>
+
+<!--Newsletter time checkbox button input-->
+<p>How often do you wish to receive your newsletter?</p>
+  <input type="checkbox" id="newslet_time_daily" name="newslet_time_daily" value="Daily">
+  <label for="newslet_time_daily"> Daily</label><br>
+  <input type="checkbox" id="newslet_time_weekly" name="newslet_time_weekly" value="Weekly">
+  <label for="newslet_time_weekly"> Weekly</label><br>
+  <input type="checkbox" id="newslet_time_monthly" name="newslet_time_monthly" value="Monthly">
+  <label for="newslet_time_monthly"> Monthly</label><br><br>
+
+  <!--Password input-->
+  <label for="pwd">Password: </label>
+  <input type="password" id="pwd" name="password"><br><br>
+
+  <!--Submit button-->
+  <input type="submit" value="Submit">
+</form>
+
+</body>
+</html>
