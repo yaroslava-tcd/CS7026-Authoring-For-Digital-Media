@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head>
+<title>Yara Portfolio</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Portfolio">
+<meta name="keywords" content="HTML, CSS, JavaScript, Design, Photography, UXUI">
+<meta name="author" content="Yaroslava Bilous">
+<link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+<!-- Website Navigation Bar -->
+    <nav>
+        <ul>
+            <li style="float: left;" id="home"><a href="../index.html">Yarafolio</a></li>
+            <li id="contact"><a href="../pages/contact.html">Contact</a></li>
+             <li id="projects"><a href="../pages/projects.html">Projects</a></li>
+            <li id="about"><a href="../pages/about.html">About</a></li>
+           
+        </ul>
+    </nav>
+
+    <!--Main Content -->
+    <main>
+        <div class="contact-container">
+            <div class="con-container-item-1">
+                <h2>let's work together!</h2>
+                <p>Feel free to reach out to me if you have any questions or would like to collaborate!</p>
+               
+            
+                <form class="form-styling" action="submit_form.php" method="post">
+                    <label for="name">Name:*</label>
+                    <input type="text" id="name" name="name" required>
+
+                    <label for="email">Email:*</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="message">Message:*</label>
+                    <textarea id="message" name="message" rows="5" required></textarea><br>
+
+                    <button type="submit" value="Submit">Send Message</button>
+                </form> 
+            </div>
+            <div class="con-container-item-2">
+                <img src="../images/contact-img.png" alt="Contact Image" class="contact-image">
+            </div>
+        </div>
+    </main>
+
+    <!--Footer -->
+   <footer>
+    <div class="footer-container">
+
+        <div class="footer-about">
+            <h3>Yarafolio</h3>
+            <p>My portfolio website</p>
+        </div>
+
+         <div class="footer-sitemap">
+            <h3>Sitemap</h3>
+            <ul>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="../index.html">Home</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-contact">
+            <h3>Contact</h3>
+            <p>Email: bilousyara@gmail.com</p>
+        </div>
+
+    </div>
+
+    <div class="footer-bottom">
+        <p>&copy;2026 Yaroslava Bilous</p>
+    </div>
+</footer>
+
+</body>
+</html>
