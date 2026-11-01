@@ -1,0 +1,34 @@
+[
+{
+    "number": 1,
+    "name": "Project 1: Kyiv City Magazine",
+    "description": "This magazine's layout was created using InDesign. Vector graphics and photo editing were done with Adobe Illustrator and Adobe Photoshop.",
+    "category": "Graphic Design",
+    "image": "../images/project-1.jpg",
+    "tools": ["Adobe InDesign", "Adobe Illustrator", "Adobe Photoshop"]
+},
+{
+    "number": 2,
+    "name": "Project 2: Furry Friends Website",
+    "description": "This is a pet services website I designed and developed. The HTML, CSS, and JavaScript libraries such as Bootstrap were used to create the website from scratch. Figma was used for wireframes and mock-ups.",
+    "category": "Web Development and UX/UI Design",
+    "image": "../images/project-2.jpg",
+    "tools": ["Figma", "Adobe Dreamweaver", "VS Code", "Bootstrap", "HTML", "CSS", "JavaScript"]
+},
+{
+    "number": 3,
+    "name": "Project 3: Maynooth Library Cat Documentary",
+    "description": "The short documentary that was later posted on the official social media account of Maynooth University.",
+    "category": "Videography and Video Editing",
+    "image": "../images/project-3.jpg",
+    "tools": ["Adobe Premiere Pro", "Adobe Audition", "Canon Camera", "Zoom H1", "Boom Mic", "Tripod"]
+},
+{
+    "number": 4,
+    "name": "Project 4: Kinetica",
+    "description": "This is my university final year project where I designed a brand identity for an app that helps young peope connect and explore their creativity. It was later implemented as a functional prototype.",
+    "category": "Branding and UX/UI Design",
+    "image": "../images/project-4.jpg",
+    "tools": ["Adobe Illustrator", "Adobe Photoshop", "Figma", "Adobe Premiere Pro", "Adobe After Effects"]
+}
+]
